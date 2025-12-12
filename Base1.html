@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Tela de Login</title>
+
+    <link rel="stylesheet" type="text/css" href="Base_1.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <div class="empresa">Info Solution's Interprise ™</div>
+
+    <style>
+        body {
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .Tab {
+            text-align: center;
+            padding: 5%;
+            background: rgba(255, 255, 255, 0.8);
+            width: 300px;
+            border-radius: 12px;
+            box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.8);
+       
+        }
+
+        .fundo {
+            background: none;
+        }
+    </style>
+</head>
+
+<body>
+
+    <form class="Login" action="/actiionp.page.php">
+
+        <table class="Tab">
+            <tr>
+                <td>
+                    <h5>Acesso ao sistema RH</h5>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="fnome">Usuário ou E-mail:</label>
+                    <input type="text" id="fnome" name="usuario">
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="pass">Senha:</label><br>
+                    <input type="password" id="pass" name="senha"><br><br>
+                    <button type="button">Entrar</button><br>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label>Não é cadastrado ainda?</label><br>
+                    <a href="#">Cadastre-se aqui</a>
+                </td>
+            </tr>
+        </table>
+    </form>
+
+</body>
+
+</html>

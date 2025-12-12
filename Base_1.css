@@ -1,0 +1,52 @@
+.Tab {
+   border-collapse: separate;
+    min-width: 350px;
+    max-width: 600px;
+    width:200%;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+    background:white;
+    overflow:hidden;
+}
+
+body {
+   background: linear-gradient(45deg, #ff9a9e, #fad0c4, #a1c4fd, #c2e9fb);
+    background-size: 300% 300%;
+    animation: gradientMove 12s ease infinite;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    display: flex;
+}
+button{
+    text-align: center;
+    width: 300px;
+    background-color:rgb(167, 186, 223);
+    border-radius: 10px;
+    font-style: oblique;
+}
+
+h5{
+    font: size 35px;
+    font-style: normal;
+    
+}
+.Tab, input, select{
+    background-color: rgb(167, 186, 223);
+}
+.empresa {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-family: 'Montserrat', sans-serif; 
+    font-size: 28px;
+    font-weight: 700;
+    color: white;
+    text-shadow: 0 2px 4px rgba(0,0,0,0.4);
+}
+
